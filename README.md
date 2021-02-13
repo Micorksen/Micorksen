@@ -1,0 +1,3 @@
+- 👋 Hi, I’m @SkinDePewDiePie
+- 👀 I’m interested in Technology
+- 🌱 I’m currently learning English
