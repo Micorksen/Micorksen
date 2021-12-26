@@ -3,7 +3,7 @@
   <a href="https://twitter.com/Micorksen"><img src="https://img.shields.io/badge/Twitter-@Micorksen-blue?style=for-the-badge&logo=twitter" alt="Twitter" /></a>
   <a href="https://twitch.tv/Micorksen"><img src="https://img.shields.io/badge/Twitch-@Micorksen-purple?style=for-the-badge&logo=twitch" alt="Twitch" /></a>
   <a href="https://youtube.com/channel/UC_OVDhqhz1T5qUQWCJPKmQA"><img src="https://img.shields.io/badge/Youtube-Micorksen-red?style=for-the-badge&logo=youtube" alt="Youtube" /></a>
-  <a href="https://discord.gg/ABZqjcEC"><img src="https://img.shields.io/badge/Discord-blue?style=for-the-badge&logo=discord" alt="Discord" /></a>
+  <a href="https://discord.gg/ABZqjcEC"><img src="https://img.shields.io/badge/Discord-gray?style=for-the-badge&logo=discord" alt="Discord" /></a>
   <br />
   <a href="https://micorksen.eu.org"><img src="https://img.shields.io/badge/Site-micorksen.eu.org-orange?style=for-the-badge&logo=brave" alt="Site" /></a>
 </div>
