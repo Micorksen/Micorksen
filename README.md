@@ -5,7 +5,7 @@
   <a href="https://youtube.com/channel/UC_OVDhqhz1T5qUQWCJPKmQA" target="_blank"><img src="https://img.shields.io/badge/Youtube-Micorksen-red?style=for-the-badge&logo=youtube" alt="Youtube" /></a>
   <a href="https://discord.gg/ABZqjcEC" target="_blank"><img src="https://img.shields.io/badge/Discord-gray?style=for-the-badge&logo=discord" alt="Discord" /></a>
   <br />
-  <a href="https://micorksen.xyz" target="_blank"><img src="https://img.shields.io/badge/Site-micorksen.xyz-orange?style=for-the-badge&logo=brave" alt="Site" /></a>
+  <a href="https://micorksen.eu" target="_blank"><img src="https://img.shields.io/badge/Site-micorksen.eu-orange?style=for-the-badge&logo=brave" alt="Site" /></a>
 </div>
 <p align="center">I’m Micorksen!</p>
 <h2 align="center">My statistics:</h2>
