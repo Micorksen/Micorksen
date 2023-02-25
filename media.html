@@ -5,7 +5,7 @@
     <style>body{background-color:rgb(0,0,0)}video{position:absolute;top:0px;right:0px;bottom:0px;left:0px;max-height:100%;max-width:100%;margin:auto}</style>
   </head>
   <body>
-    <video controls>
+    <video controls autoplay>
       <source type="video/mp4" />
     </video>
     <script>let p = {};window.location.search.replace('?','').split('&').forEach(e =>{const [n,v]=e.split('=');p[n]=v;});document.querySelector('source').src=p.src;document.querySelector('title').innerHTML=p.src.split('/').slice(-1)[0];</script>
