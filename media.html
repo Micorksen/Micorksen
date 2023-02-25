@@ -8,6 +8,6 @@
     <video controls autoplay muted>
       <source type="video/mp4" />
     </video>
-    <script>let p = {};window.location.search.replace('?','').split('&').forEach(e =>{const [n,v]=e.split('=');p[n]=v;});document.querySelector('source').src=p.src;document.querySelector('title').innerHTML=p.src.split('/').slice(-1)[0];</script>
+    <script>let p = {};window.location.search.replace('?','').split('&').forEach(e =>{const [n,v]=e.split('=');p[n]=v;});document.querySelector('title').innerHTML=p.src.split('/').slice(-1)[0];document.querySelector('video').muted=false;document.querySelector('source').src=p.src;</script>
   </body>
 </html>
