@@ -8,8 +8,6 @@
     <video controls>
       <source type="video/mp4" />
     </video>
-    <script>
-      let p = {};window.location.search.replace('?','').split('&').forEach(e =>{const [n,v]=e.split('=');p[n]=v;});document.querySelector('source').src=p.src||'https://cdn.discordapp.com/attachments/1053754406379716638/1078604639391449128/Lui_-_le_film.mp4';
-    </script>
+    <script>let p = {};window.location.search.replace('?','').split('&').forEach(e =>{const [n,v]=e.split('=');p[n]=v;});document.querySelector('source').src=p.src;document.querySelector('title').innerHTML=p.src.split('/').slice(-1)[0];</script>
   </body>
 </html>
