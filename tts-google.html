@@ -2,9 +2,9 @@
 <html>
   <head>
     <title>TTS Google &ndash; Micorksen</title>
-    <style>body{background-color:rgb(0,0,0)}video{position:absolute;top:0px;right:0px;bottom:0px;left:0px;max-height:100%;max-width:100%;margin:auto}</style>
   </head>
   <body>
-    <script>const p={},x=new XMLHttpRequest();let _s='data:audio/mp3;base64,',_r,_a;window.location.search.replace('?','').split('&').forEach(e=>{const [k,_v]=e.split('=');p[k]=decodeURIComponent(_v)});x.onreadystatechange=()=>{if(x.readyState=== 4&&x.status===200){_s+=JSON.parse(x.responseText.replace(')]}\'\n',''))['translate_tts'][0];_r=window.atob(_s.substring(_s.indexOf(';base64,')+8));_a=new Uint8Array(new ArrayBuffer(_r.length));for(i=0;i<_r.length;i++){_a[i]=_r.charCodeAt(i)};window.location.replace(URL.createObjectURL(new Blob([_a],{type:'audio/mp3'})))}};x.open('GET',`https://cors-anywhere.herokuapp.com/https://www.google.com/async/translate_tts?ttsp=tl:${p['lang']||'fr'},txt:${encodeURIComponent(p['text']||'Bonjour!')},spd:${p['speed']||1}&async=_fmt:jspb`);x.send();v.addEventListener('playing',()=>{v.muted!=1})</script>
+    <p>Downloading...</p>
+    <script>const p={},x=new XMLHttpRequest();let _s='data:audio/mp3;base64,',_r,_a;window.location.search.replace('?','').split('&').forEach(e=>{const [k,_v]=e.split('=');p[k]=decodeURIComponent(_v)});x.onreadystatechange=()=>{if(x.readyState=== 4&&x.status===200){_s+=JSON.parse(x.responseText.replace(')]}\'\n',''))['translate_tts'][0];_r=window.atob(_s.substring(_s.indexOf(';base64,')+8));_a=new Uint8Array(new ArrayBuffer(_r.length));for(i=0;i<_r.length;i++){_a[i]=_r.charCodeAt(i)};window.location.assign(URL.createObjectURL(new Blob([_a],{type:'audio/mp3'})))}};x.open('GET',`https://cors-anywhere.herokuapp.com/https://www.google.com/async/translate_tts?ttsp=tl:${p['lang']||'fr'},txt:${encodeURIComponent(p['text']||'Bonjour!')},spd:${p['speed']||1}&async=_fmt:jspb`);x.send()</script>
   </body>
 </html>
