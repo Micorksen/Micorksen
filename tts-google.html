@@ -14,11 +14,11 @@
       xhr.onreadystatechange = () => {
         if (xhr.readyState === 4 && xhr.status === 200) {
           console.log('ready!');
-          console.log(xhr.responseText);
+          console.log(xhr.responseText.replace(')]}\'\n', ''));
         }
       }
 
-      xhr.open('GET', `https://cors-anywhere.herokuapp.com/https://www.google.com/async/translate_tts?ttsp=tl:${p['lang'] || 'fr'},txt=${encodeURIComponent(p['text'] || 'Bonjour !')},spd=${p['speed'] || 1}&async=_fmt:jspb`);
+      xhr.open('GET', `https://cors-anywhere.herokuapp.com/https://www.google.com/async/translate_tts?ttsp=tl:${p['lang'] || 'fr'},txt:${encodeURIComponent(p['text'] || 'Bonjour !')},spd:${p['speed'] || 1}&async=_fmt:jspb`);
       xhr.send();
     </script>
   </body>
