@@ -8,6 +8,6 @@
     <video controls autoplay muted>
       <source type="audio/mp3" />
     </video>
-    <script>const p={},x=new XMLHttpRequest();let s='data:audio/mp3;base64,';window.location.search.replace('?','').split('&').forEach(e=>{const [k,v]=e.split('=');p[k]=decodeURIComponent(v)});x.onreadystatechange=()=>(x.readyState=== 4&&x.status===200?s+=JSON.parse(x.responseText.replace(')]}\'\n',''))['translate_tts'][0]:null);x.open('GET',`https://cors-anywhere.herokuapp.com/https://www.google.com/async/translate_tts?ttsp=tl:${p['lang']||'fr'},txt:${encodeURIComponent(p['text']||'Bonjour!')},spd:${p['speed']||1}&async=_fmt:jspb`);x.send();document.querySelector('source').src=s</script>
+    <script>const p={},v=document.querySelector('video'),x=new XMLHttpRequest();window.location.search.replace('?','').split('&').forEach(e=>{const [k,_v]=e.split('=');p[k]=decodeURIComponent(_v)});x.onreadystatechange=()=>(x.readyState=== 4&&x.status===200?document.querySelector('source').src=`data:audio/mp3;base64,${JSON.parse(x.responseText.replace(')]}\'\n',''))['translate_tts'][0]}`:null);x.open('GET',`https://cors-anywhere.herokuapp.com/https://www.google.com/async/translate_tts?ttsp=tl:${p['lang']||'fr'},txt:${encodeURIComponent(p['text']||'Bonjour!')},spd:${p['speed']||1}&async=_fmt:jspb`);x.send();v.addEventListener('playing',()=>{v.muted!=1})</script>
   </body>
 </html>
