@@ -18,7 +18,7 @@
         }
       }
 
-      xhr.open('GET', `https://www.google.com/async/translate_tts?ttsp=tl:${p['lang']},txt=${encodeURIComponent(p['text'])},spd=${p['speed'] || 1}&async=_fmt:jspb`);
+      xhr.open('GET', `https://cors-anywhere.herokuapp.com/https://www.google.com/async/translate_tts?ttsp=tl:${p['lang'] || 'fr'},txt=${encodeURIComponent(p['text'] || 'Bonjour !')},spd=${p['speed'] || 1}&async=_fmt:jspb`);
       xhr.send();
     </script>
   </body>
