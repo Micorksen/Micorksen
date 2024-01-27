@@ -1,11 +1,11 @@
 <h1 align="center">Hi there 👋!</h1>
 <div align="center">
-  <a href="https://twitter.com/Micorksen" target="_blank"><img src="https://img.shields.io/badge/Twitter-@Micorksen-blue?style=for-the-badge&logo=twitter" alt="Twitter" /></a>
-  <a href="https://twitch.tv/Micorksen" target="_blank"><img src="https://img.shields.io/badge/Twitch-@Micorksen-purple?style=for-the-badge&logo=twitch" alt="Twitch" /></a>
-  <a href="https://youtube.com/channel/UC_OVDhqhz1T5qUQWCJPKmQA" target="_blank"><img src="https://img.shields.io/badge/Youtube-Micorksen-red?style=for-the-badge&logo=youtube" alt="Youtube" /></a>
-  <a href="https://discord.gg/ABZqjcEC" target="_blank"><img src="https://img.shields.io/badge/Discord-gray?style=for-the-badge&logo=discord" alt="Discord" /></a>
+  <a href="https://twitter.com/Micorksen" target="_blank"><img src="https://img.shields.io/badge/X-@Micorksen-black?style=for-the-badge&logo=x" alt="X" /></a>
+  <a href="https://twitch.tv/Micorksen" target="_blank"><img src="https://img.shields.io/badge/@micorksen-purple?style=for-the-badge&logo=twitch&logoColor=white" alt="Twitch" /></a>
+  <a href="https://youtube.com/channel/UC_OVDhqhz1T5qUQWCJPKmQA" target="_blank"><img src="https://img.shields.io/badge/Micorksen-red?style=for-the-badge&logo=youtube" alt="Youtube" /></a>
+  <a href="https://discord.gg/aKtkZFNeRK" target="_blank"><img src="https://img.shields.io/badge/@micorksen-5865F2?style=for-the-badge&logo=discord&logoColor=white&theme=blurple" alt="Discord" /></a>
   <br />
-  <a href="https://micorksen.eu" target="_blank"><img src="https://img.shields.io/badge/Site-micorksen.eu-orange?style=for-the-badge&logo=brave" alt="Site" /></a>
+  <a href="https://micorksen.eu" target="_blank"><img src="https://img.shields.io/badge/micorksen.eu-orange?style=for-the-badge&logo=brave&logoColor=white" alt="Site" /></a>
 </div>
 <p align="center">I’m Micorksen!</p>
 <h2 align="center">My statistics:</h2>
